@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: TS Block;
+    src: url(TS\ Block\ Bold.ttf);
+}
+
+body{
+    background: #101010;
+    color: white;
+    font-family: TS Block;
+}
+
+.NavBar{
+    background: white;
+}
+
+.Hero{
+    height: 100vh;
+}
