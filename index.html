@@ -8,39 +8,106 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <nav class="NavBar" style="z-index: 100;">
+
+    <a class="NavBarCont" href="/">
+      <div >
+        <svg xmlns="http://www.w3.org/2000/svg" width="113" height="31.994" viewBox="0 0 113 31.994">
+          <g id="Home" transform="translate(-36 -33.006)">
+            <path id="Icon_metro-home" data-name="Icon metro-home" d="M33.419,19.715,17.995,7.743,2.571,19.716V14.834L17.995,2.861,33.419,14.834Zm-3.856-.435V30.849H21.851V23.136H14.139v7.712H6.427V19.28L17.995,10.6Z" transform="translate(33.429 30.145)" fill="#101010"/>
+            <text id="Home-2" data-name="Home" transform="translate(82 60)" fill="#101010" font-size="25" font-family="Bahnschrift" letter-spacing="0.01em"><tspan x="0" y="0">Home</tspan></text>
+          </g>
+        </svg>
+      </div>
+    </a>
+
+    <div onclick="OpenNav()" class="NavBarCont">   
+       <svg xmlns="http://www.w3.org/2000/svg" width="126.055" height="25.655" viewBox="0 0 126.055 25.655">
+        <g id="Menu" transform="translate(70.5 -4)" style="isolation: isolate">
+          <g id="Group_1" data-name="Group 1">
+            <path id="Path_1" data-name="Path 1" d="M4.5,18H36.437" transform="translate(15.618 8.155)" fill="#101010" stroke="#101010" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+            <path id="Path_2" data-name="Path 2" d="M4.5,9H49.3" transform="translate(2.751 2.932)" fill="#101010" stroke="#101010" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+            <text id="Menu-2" data-name="Menu" transform="translate(-70.5 4)" fill="#101010" font-size="25" font-family="Bahnschrift"><tspan x="0" y="20">Menu</tspan></text>
+          </g>
+        </g>
+      </svg>
+      
+    </div>
+
+  </nav>
+
+  <nav id="Nav-Container" class="Nav-Container">
+
     <nav class="NavBar">
 
-        <a class="NavBarCont" href="/">
-          <div >
-            <svg xmlns="http://www.w3.org/2000/svg" width="113" height="31.994" viewBox="0 0 113 31.994">
-              <g id="Home" transform="translate(-36 -33.006)">
-                <path id="Icon_metro-home" data-name="Icon metro-home" d="M33.419,19.715,17.995,7.743,2.571,19.716V14.834L17.995,2.861,33.419,14.834Zm-3.856-.435V30.849H21.851V23.136H14.139v7.712H6.427V19.28L17.995,10.6Z" transform="translate(33.429 30.145)" fill="#101010"/>
-                <text id="Home-2" data-name="Home" transform="translate(82 60)" fill="#101010" font-size="25" font-family="Bahnschrift" letter-spacing="0.01em"><tspan x="0" y="0">Home</tspan></text>
-              </g>
-            </svg>
-          </div>
-        </a>
-  
-        <div onclick="OpenNav()" class="NavBarCont">   
-           <svg xmlns="http://www.w3.org/2000/svg" width="126.055" height="25.655" viewBox="0 0 126.055 25.655">
-            <g id="Menu" transform="translate(70.5 -4)" style="isolation: isolate">
-              <g id="Group_1" data-name="Group 1">
-                <path id="Path_1" data-name="Path 1" d="M4.5,18H36.437" transform="translate(15.618 8.155)" fill="#101010" stroke="#101010" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
-                <path id="Path_2" data-name="Path 2" d="M4.5,9H49.3" transform="translate(2.751 2.932)" fill="#101010" stroke="#101010" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
-                <text id="Menu-2" data-name="Menu" transform="translate(-70.5 4)" fill="#101010" font-size="25" font-family="Bahnschrift"><tspan x="0" y="20">Menu</tspan></text>
-              </g>
+      <a class="NavBarCont" href="index.html">
+        <div >
+          <svg xmlns="http://www.w3.org/2000/svg" width="113" height="31.994" viewBox="0 0 113 31.994">
+            <g id="Home" transform="translate(-36 -33.006)">
+              <path id="Icon_metro-home" data-name="Icon metro-home" d="M33.419,19.715,17.995,7.743,2.571,19.716V14.834L17.995,2.861,33.419,14.834Zm-3.856-.435V30.849H21.851V23.136H14.139v7.712H6.427V19.28L17.995,10.6Z" transform="translate(33.429 30.145)" fill="#fff"/>
+              <text id="Home-2" data-name="Home" transform="translate(82 60)" fill="#fff" font-size="25" font-family="Bahnschrift" letter-spacing="0.01em"><tspan x="0" y="0">Home</tspan></text>
             </g>
           </svg>
-          
         </div>
+      </a>
+
+      <div onclick="CloseNav()" class="NavBarCont">   
+        <svg xmlns="http://www.w3.org/2000/svg" width="97.219" height="27.828" viewBox="0 0 97.219 27.828">
+          <g id="NavClose" transform="translate(-1724 -45.586)">
+            <path id="Icon_ionic-md-close" data-name="Icon ionic-md-close" d="M32.523,10.023l-2.5-2.5-10,10-10-10-2.5,2.5,10,10-10,10,2.5,2.5,10-10,10,10,2.5-2.5-10-10Z" transform="translate(1787.282 39.477)" fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="bevel" stroke-width="4"/>
+            <text id="Close" transform="translate(1724 67)" fill="#fff" font-size="25" font-family="Bahnschrift"><tspan x="0" y="0">Close</tspan></text>
+          </g>
+        </svg>        
+      </div>
+
+    </nav>  
   
-      </nav>
+    <div class="NavButtons">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="761" height="595" viewBox="0 0 761 595">
+
+        <defs>
+          <clipPath id="clip-path">
+            <rect width="637" height="595" fill="none"/>
+          </clipPath>
+        </defs>
+
+        <g id="Repeat_Grid_1" data-name="Repeat Grid 1" transform="translate(124)" clip-path="url(#clip-path)">
+
+          <a href="AboutMe.html">
+            <g transform="translate(-474 -217)">
+              <text id="About_me" data-name="About me" transform="translate(474 336)" fill="#fff" font-size="150" font-family="Bahnschrift"><tspan x="0" y="0">About me</tspan></text>
+            </g>
+          </a> 
+
+          <a href="Skillset.html">
+            <g transform="translate(-474 -2)">
+              <text id="Skillset" transform="translate(474 336)" fill="#fff" font-size="150" font-family="Bahnschrift"><tspan x="0" y="0">Skillset</tspan></text>
+            </g>
+          </a> 
+
+        </g>
+
+      <text id="_01" data-name="01" transform="translate(40 125) rotate(-90)" fill="#fff" font-size="50" font-family="Bahnschrift"><tspan x="0" y="0">01</tspan></text>
+      <text id="_02" data-name="02" transform="translate(40 349) rotate(-90)" fill="#fff" font-size="50" font-family="Bahnschrift"><tspan x="0" y="0">02</tspan></text>
+    </svg>
+    </div>
+
+  </nav>
 
 
     <section class="Hero">
-        <H1>Luca Megens</H1>
-        <H3>Creative Technology Advanced</H3>
-        <H5>Together we can change the future by unlocking our full potential with creative freedom</H5>
+      <div class="Hero_txt" style="z-index: 10;">
+        <H1 class="Titel" style="z-index: 9;">Luca Megens</H1>
+        <H3 class="SubTitel" style="z-index: 9;">Creative Technology Advanced</H3>
+        <H5 class="Catchphrase" style="z-index: 9;">Together we can change the future <br> by unlocking our full potential with creative freedom</H5>
+      </div>
+
+      <div class="background" style="z-index: 2;">
+        <div class="background-white-border" style="z-index: 1;"></div>
+        <div class="Background-color-fade1" style="z-index: 0;"></div>
+        <div class="Background-color-fade2" style="z-index: 0;"></div>
+      </div>
+
     </section>
 
     <section class="Vision">
