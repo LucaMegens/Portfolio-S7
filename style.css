@@ -72,65 +72,66 @@ width: 0px;
 /* --- HERO ---*/
 .Hero{
     position: relative;
-    height: 110vh;
+    height: 60vw;
 }
 .background{
-    position: relative;
+    position: absolute;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     flex-direction: column;
-    width: 100%;
-    top: -280vh;
+    height: 100vh;
+    width: 100vw;
 }
 .background-white-border{
     border-style: solid;
     border-width: 5pt;
     border-color: white;
-    height: 82vh;
+    height: 40vw;
     width: 87vw;
-    position: relative;
-    top: 238vh;
+    position: absolute;
     left: 6vw;
+    top: 10%;
 }
 .Background-color-fade1{
-    height: 110vh;
-    width: 40vw;
+    display: flex;
+    height: 50vw;
+    width: 24%;
     background-image: linear-gradient(#71858F, #D5A2A2);
-    position: relative;
-    top: 140vh;
-    left: -17vw;
+    position: absolute;
 }
 .Background-color-fade2{
-    height: 110vh;
-    width: 34vw;
+    display: flex;
+    height: 50vw;
+    width: 30%;
     background-image: linear-gradient(#71858F, #D5A2A2);
-    position: relative;
-    top: 30vh;
-    left: 51vw;
+    position: absolute;
+    left: 50%;
+
 }
 .Hero_txt{
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;
+    position: absolute;
     top: 15vh;
+    width: 100vw;
 }
 .Hero_txt>H1{
     align-self: center;
-    font-size: 13em;
+    font-size: 8.5vw;
 }
 .Hero_txt>h3{
     text-align: center;
-    font-size: 6em;
+    font-size: 4vw;
 }
 .Hero_txt>h5{
     position: relative;
     font-family: 'Bahnschrift';
     font-weight: 400;
     font-stretch: condensed;
-    top: 13vh;
+    top: 5vw;
     text-align: center;
-    font-size: 4.2em;
+    font-size: 2.7vw;
 }
 
 /* --- PROJECTS ---*/
@@ -140,13 +141,14 @@ width: 0px;
     display: flex;
     justify-content: left;
     margin-top: 30vh;
-    font-size: 75px;
+    font-size: 3vw;
 }
 .Vision{
     display: flex;
     justify-content: center;
 }
 .Vision-bg{
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -165,8 +167,8 @@ width: 0px;
 }
 .Vision-color-fade{
     align-self: center;
-    position: relative;
-    top: -40vh;
+    position: absolute;
+    bottom: 25%;
     width: 80%;
     height: 30vh;
     background-image: linear-gradient(to right,#71858F, #D5A2A2);
@@ -188,6 +190,5 @@ width: 0px;
     border-width: 5pt;
     height: 7vh;
     width: 99.5vw;
-    top: 20vh;
     background-color: white;
 }
