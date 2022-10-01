@@ -147,6 +147,9 @@ width: 0px;
     display: flex;
     justify-content: center;
 }
+.Groeps{
+    rotate: 180deg;
+}
 .Vision-bg{
     position: relative;
     display: flex;
@@ -172,15 +175,6 @@ width: 0px;
     width: 80%;
     height: 30vh;
     background-image: linear-gradient(to right,#71858F, #D5A2A2);
-}
-
-.Projects-invert-border{
-    position: relative;
-}
-.Projects-invert-fade{
-    position: relative;
-    top: -10vh;
-    background-image: linear-gradient(to left,#71858F, #D5A2A2);
 }
 
 .footer{
