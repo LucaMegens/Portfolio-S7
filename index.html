@@ -7,10 +7,10 @@
     <title>Portfolio CTA</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="Body">
   <nav class="NavBar" style="z-index: 1000;">
 
-    <a class="NavBarCont" href="/">
+    <a onclick="CloseNav()" class="NavBarCont" href="#Main_Page">
       <div >
         <svg xmlns="http://www.w3.org/2000/svg" width="113" height="31.994" viewBox="0 0 113 31.994">
           <g id="Home" transform="translate(-36 -33.006)">
@@ -40,7 +40,7 @@
 
     <nav class="NavBar">
 
-      <a class="NavBarCont" href="#Hero">
+      <a class="NavBarCont">
         <div >
           <svg xmlns="http://www.w3.org/2000/svg" width="113" height="31.994" viewBox="0 0 113 31.994">
             <g id="Home" transform="translate(-36 -33.006)">
@@ -64,19 +64,23 @@
   
     <div class="NavButtons">
 
+      <div class="NavStyle">
         <a href="vision.html">
-          <div>Vision</div>
+          <div class="NavStyleTxt">Vision<div class="NavStyleNumb">01</div></div>
         </a> 
+      </div>
 
-
+      <div class="NavStyle">
         <a href="groepsProject.html">
-          <div>Groeps Project</div>
+          <div class="NavStyleTxt">Groeps Project<div class="NavStyleNumb">02</div></div>
         </a> 
+      </div>
 
-
+      <div class="NavStyle">
         <a href="individueelProject.html">
-          <div>Individueel Project</div>
+          <div class="NavStyleTxt">Individueel Project<div class="NavStyleNumb">03</div></div>
         </a>
+      </div>
 
     </div>
 

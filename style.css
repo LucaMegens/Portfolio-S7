@@ -21,7 +21,9 @@ body{
     color: white;
     font-family: TS Block;
 }
-
+a{
+    text-decoration: none;
+}
 ::-webkit-scrollbar{
 width: 0px;    
 }
@@ -60,19 +62,34 @@ width: 0px;
     align-items: center;
 }
 .NavButtons{
+    position: relative;
     height: 100vh;
+    width: 100vw;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+}
+.NavStyle{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Bahnschrift';
+    position: relative;
+    left: 45%;
+    margin-bottom: 7%;
+    color: white;
+    font-size: 2.5vw;
+}
+.NavStyleNumb{
+    width: 1%;
+    transform: rotate(-90deg);
+    position: relative;
+    left: -10%;
 }
 .NavBarMenu:hover{
     cursor: pointer;
 }
 .NavBarCont:hover{
     cursor: pointer;
-}
-#Home{
-    scroll-behavior: smooth;
 }
 
 /* --- HERO ---*/
