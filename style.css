@@ -7,8 +7,8 @@ html{
 }
 
 @font-face {
-    font-family: TS Block;
-    src: url(Fonts/TS\ Block\ Bold.ttf);
+    font-family: 'TS Block';
+    src: url(Fonts/TS\ Block\ Bold.ttf) format('woff2');
     font-family: 'Bahnschrift';
     src: url('Fonts/Bahnschrift.woff2') format('woff2');
     font-weight: normal;
@@ -19,7 +19,7 @@ html{
 body{
     background: #101010;
     color: white;
-    font-family: TS Block;
+    font-family: 'TS Block';
 }
 a{
     text-decoration: none;
