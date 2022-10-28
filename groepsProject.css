@@ -109,10 +109,18 @@ width: 0px;
     cursor: pointer;
 }
 
-/* --- HERO ---*/
 .Hero{
     position: relative;
     height: 60vw;
+}
+.Title{
+    position: absolute;
+    left: 10vw;
+    top: 39vh;
+}
+.Title>H1{
+    align-self: center;
+    font-size: 6vw;
 }
 .background{
     position: absolute;
@@ -124,101 +132,21 @@ width: 0px;
 }
 .background-white-border{
     border-style: solid;
-    border-width: 3.5pt;
+    border-width: 2.5pt;
     border-color: white;
     height: 40vw;
-    width: 87vw;
+    width: 25vw;
     position: absolute;
     left: 6vw;
     top: 10%;
 }
 
-.Background-color-fade2{
+.Background-color-fade{
     display: flex;
-    top: 13%;
-    left: 4%;
-    height: 45vw;
-    width: 87%;
-    background-image: linear-gradient(#71858F, #D5A2A2);
+    top: 45%;
+    height: 100vw;
+    width: 100%;
+    background-image: linear-gradient(#71858F, #D5A2A2, #71858F);
     position: absolute;
-
-}
-.Hero_txt{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    top: 15vh;
-    width: 100vw;
-}
-.Hero_txt>H1{
-    align-self: center;
-    font-size: 8.5vw;
-}
-.Hero_txt>h3{
-    text-align: center;
-    font-size: 4vw;
-}
-.Hero_txt>h5{
-    position: relative;
-    font-family: 'Bahnschrift';
-    font-weight: 400;
-    font-stretch: condensed;
-    top: 5vw;
-    text-align: center;
-    font-size: 2.7vw;
 }
 
-/* --- PROJECTS ---*/
-
-.Projects>h1{
-    position: relative;
-    display: flex;
-    justify-content: left;
-    margin-top: 30vh;
-    font-size: 3vw;
-}
-.Vision{
-    display: flex;
-    justify-content: center;
-}
-.Groeps{
-    rotate: 180deg;
-    top:7vh;
-}
-.Vision-bg{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-}
-
-.Vision-white-border{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    border-style: solid;
-    border-width: 2.5pt;
-    border-color: white;
-    height: 30vh;
-    width: 75vw;
-}
-.Vision-color-fade{
-    align-self: center;
-    position: absolute;
-    bottom: 25%;
-    width: 80%;
-    height: 30vh;
-    background-image: linear-gradient(to right,#71858F, #D5A2A2);
-}
-
-.footer{
-    position: relative;
-    border-style: solid;
-    border-color: #3A3A3A;
-    border-width: 5pt;
-    height: 7vh;
-    width: 99.3vw;
-    background-color: white;
-}
