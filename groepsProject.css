@@ -116,11 +116,11 @@ width: 0px;
 .Title{
     position: absolute;
     left: 10vw;
-    top: 39vh;
+    top: 19vw;
 }
 .Title>H1{
     align-self: center;
-    font-size: 6vw;
+    font-size: 5vw;
 }
 .background{
     position: absolute;
@@ -138,15 +138,29 @@ width: 0px;
     width: 25vw;
     position: absolute;
     left: 6vw;
-    top: 10%;
+    top: 7vw;
 }
 
 .Background-color-fade{
     display: flex;
-    top: 45%;
+    top: 22vw;
     height: 100vw;
     width: 100%;
     background-image: linear-gradient(#71858F, #D5A2A2, #71858F);
     position: absolute;
 }
 
+/* --- CONTENT --- */
+.content{
+    top: -32vw;
+    position: relative;
+    height: fit-content;
+    font-family: 'Bahnschrift';
+    width: fit-content;
+    font-size: 1.2vw;
+}
+.context{
+    position: relative;
+    left: 40%;
+    width: 35%;
+}
